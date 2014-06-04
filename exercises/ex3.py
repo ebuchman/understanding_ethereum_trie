@@ -11,7 +11,7 @@ state.update('\x01\x01\x02\x55', rlp.encode(['hellothere']))
 print 'root hash:', state.root_hash.encode('hex')
 print 'root node:', state.root_node
 print state._decode_to_node(state.root_node[1])
-state.update('\x01\x01\x02\x57', rlp.encode(['hellothere']))
+state.update('\x01\x01\x02\x57', rlp.encode(['jimbojones']))
 print 'root hash:', state.root_hash.encode('hex')
 print 'root node:', state.root_node
 print state._decode_to_node(state.root_node[1])
